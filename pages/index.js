@@ -11,8 +11,9 @@ export default function Home() {
     <>
     <main className={styles.main}>
 
-    <Script src="/aframe-ar.js" />
-    <Script src="/aframe.min.js" />
+    <Script src="/aframe.min.js" strategy='beforeInteractive' />
+    <Script src="/aframe-ar.js" strategy='beforeInteractive' />
+    
 
     <p>test</p>
 

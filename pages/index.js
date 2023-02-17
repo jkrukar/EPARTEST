@@ -17,7 +17,6 @@ export default function Home() {
     <p>test</p>
 
 
-        <div>
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: true;'>
 
 <a-marker preset='hiro'>
@@ -29,7 +28,6 @@ export default function Home() {
 <a-entity camera></a-entity>
 
 </a-scene>
-  </div>
 
     </main>
     </>

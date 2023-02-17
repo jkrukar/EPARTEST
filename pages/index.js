@@ -18,11 +18,16 @@ export default function Home() {
     <p>test</p>
 
 
-    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: true;'>
+    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
 
 <a-marker preset='hiro'>
 
-<a-box position='0 1 0' material='opacity: 0.5; color: #F70087;'></a-box>
+<a-entity
+        gltf-model="/arTestCube.gltf"
+        scale="5 5 5"
+        position="50 150 0"
+      >
+      </a-entity>
 
 </a-marker>
 

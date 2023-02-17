@@ -14,11 +14,11 @@ export default function Home() {
 
 
         <div>
-    <a-scene embedded arjs=’sourceType: webcam; debugUIEnabled: false;’>
+    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
 
-<a-marker preset=’hiro’’>
+<a-marker preset='hiro'>
 
-<a-box position=’0 1 0′ material=’opacity: 0.5; color: #F70087;’></a-box>
+<a-box position='0 1 0' material='opacity: 0.5; color: #F70087;''></a-box>
 
 </a-marker>
 

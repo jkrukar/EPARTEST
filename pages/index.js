@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,11 +11,14 @@ export default function Home() {
     <>
     <main className={styles.main}>
 
+    <Script src="/aframe-ar.js" />
+    <Script src="/aframe.min.js" />
+
     <p>test</p>
 
 
         <div>
-    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
+    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: true;'>
 
 <a-marker preset='hiro'>
 

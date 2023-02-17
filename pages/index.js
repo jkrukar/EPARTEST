@@ -18,7 +18,7 @@ export default function Home() {
 
 <a-marker preset='hiro'>
 
-<a-box position='0 1 0' material='opacity: 0.5; color: #F70087;''></a-box>
+<a-box position='0 1 0' material='opacity: 0.5; color: #F70087;'></a-box>
 
 </a-marker>
 
